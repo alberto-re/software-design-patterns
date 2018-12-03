@@ -11,7 +11,16 @@
     <target.version>1.8</target.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+    <javax-mail.version>1.4.7</javax-mail.version>
   </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>${javax-mail.version}</version>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>
